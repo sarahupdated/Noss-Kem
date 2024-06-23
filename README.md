@@ -50,11 +50,11 @@
             width: 100%;
             height: auto;
         }
-        .contact-form, .suggestions-form {
+        .contact-form, .Ektirahet-form {
             display: flex;
             flex-direction: column;
         }
-        .contact-form input, .suggestions-form input, .contact-form textarea, .suggestions-form textarea {
+        .contact-form input, .Ektirahet-form input, .contact-form textarea, .Ektirahet-form textarea {
             margin-bottom: 1em;
             padding: 0.5em;
         }
@@ -73,7 +73,7 @@
         <a href="#about">About Us</a>
         <a href="#products">Products</a>
         <a href="#contact">Contact</a>
-        <a href="#suggestions">Suggestions</a>
+        <a href="#Ektirahet">Ektirahet</a>
     </nav>
     <div id="home" class="container">
         <h2>Welcome to Noss Kem</h2>
@@ -97,8 +97,8 @@
         </div>
         <!-- Add more products as needed -->
     </div>
-    <div id="contact" class="container">
-        <h2>Contact Us</h2>
+    <div id="Lel tawassol" class="container">
+        <h2>Lel tawassol</h2>
         <form class="contact-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
@@ -106,9 +106,9 @@
             <button type="submit">Send Message</button>
         </form>
     </div>
-    <div id="suggestions" class="container">
-        <h2>Suggestions</h2>
-        <form class="suggestions-form">
+    <div id="Ektirahet" class="container">
+        <h2>Ektirahet</h2>
+        <form class="Ektirahet-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="suggestion" rows="5" placeholder="Your Suggestion" required></textarea>
@@ -116,7 +116,7 @@
         </form>
     </div>
     <footer>
-        <p>&copy; 2024 Noss Kem. Kel l hou2ou2 mhfouza.</p>
+        <p>&copy; 2024 Noss Kem. Kel el hou2ou2 mahfouza.</p>
     </footer>
 </body>
 </html>
