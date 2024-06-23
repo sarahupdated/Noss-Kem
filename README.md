@@ -50,11 +50,11 @@
             width: 100%;
             height: auto;
         }
-        .Lel tawassol-form, .Ektirahet-form {
+        .contact-form, .suggestions-form {
             display: flex;
             flex-direction: column;
         }
-        .Lel tawassol-form input, .Ektirahet-form input, .Lel tawassol-form textarea, .Ektirahet-form textarea {
+        .contact-form input, .suggestions-form input, .contact-form textarea, .suggestions-form textarea {
             margin-bottom: 1em;
             padding: 0.5em;
         }
@@ -72,8 +72,8 @@
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="#products">Products</a>
-        <a href="#Lel tawassol">Lel tawassol</a>
-        <a href="#Ektirahet">Ektirahet</a>
+        <a href="#Lel tawassol">Contact</a>
+        <a href="#Ektirahet">Suggestions</a>
     </nav>
     <div id="home" class="container">
         <h2>Welcome to Noss Kem</h2>
@@ -99,7 +99,7 @@
     </div>
     <div id="Lel tawassol" class="container">
         <h2>Lel tawassol</h2>
-        <form class="Lel tawassol-form">
+        <form class="contact-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -108,7 +108,7 @@
     </div>
     <div id="Ektirahet" class="container">
         <h2>Ektirahet</h2>
-        <form class="Ektirahet-form">
+        <form class="suggestions-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="suggestion" rows="5" placeholder="Your Suggestion" required></textarea>
