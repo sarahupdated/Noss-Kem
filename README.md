@@ -1,4 +1,3 @@
-# Noss-Kem
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -117,7 +116,7 @@
         </form>
     </div>
     <footer>
-        <p>&copy; 2024 Noss Kem. All rights reserved.</p>
+        <p>&copy; 2024 Noss Kem. Kel l hou2ou2 mhfouza.</p>
     </footer>
 </body>
 </html>
