@@ -50,11 +50,11 @@
             width: 100%;
             height: auto;
         }
-        .contact-form, .Ektirahet-form {
+        .Lel tawassol-form, .Ektirahet-form {
             display: flex;
             flex-direction: column;
         }
-        .contact-form input, .Ektirahet-form input, .contact-form textarea, .Ektirahet-form textarea {
+        .Lel tawassol-form input, .Ektirahet-form input, .Lel tawassol-form textarea, .Ektirahet-form textarea {
             margin-bottom: 1em;
             padding: 0.5em;
         }
@@ -72,7 +72,7 @@
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
+        <a href="#Lel tawassol">Lel tawassol</a>
         <a href="#Ektirahet">Ektirahet</a>
     </nav>
     <div id="home" class="container">
@@ -99,7 +99,7 @@
     </div>
     <div id="Lel tawassol" class="container">
         <h2>Lel tawassol</h2>
-        <form class="contact-form">
+        <form class="Lel tawassol-form">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
